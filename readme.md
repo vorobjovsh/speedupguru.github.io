@@ -19,7 +19,7 @@ https://speedupguru.github.io/
 3) Фикс слайдера
 4) Оптимизация скорости: https://developers.google.com/speed/pagespeed/insights/?hl=en
 
-- если ваш домен выдает 404 после форка, то ссылка будет: https://username.github.io/index.html
+	* если ваш домен выдает 404 после форка, то ссылка будет: https://username.github.io/index.html
 
 Результаты
 -----------------------------------
