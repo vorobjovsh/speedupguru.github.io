@@ -15,8 +15,8 @@ https://speedupguru.github.io/
 -----------------------------------
 
 1) Форкаем репозиторий: https://github.com/speedupguru/speedupguru.github.io
-2) Настраиваем домен на github: https://pages.github.com/
-3) Настойка слайдера
+2) Создаем домен на github: https://pages.github.com/
+3) Фикс слайдера
 4) Оптимизация скорости: https://developers.google.com/speed/pagespeed/insights/?hl=en
 
 
