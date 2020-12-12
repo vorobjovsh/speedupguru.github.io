@@ -25,12 +25,14 @@
 	}
 	</style>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>
-  <script src="./assets/vendor.js" type="text/javascript"></script>
-	<script src="./assets/init.js" type="text/javascript"></script>
-  <script src="./assets/theme.js" type="text/javascript"></script>
-  <script src="./assets/slick.js" type="text/javascript" defer="defer"></script>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js" type="text/javascript" defer></script>
+	<script src="./assets/vendor.js" type="text/javascript" defer></script>
+	<script src="./assets/init.js" type="text/javascript" defer></script>
+	<script src="./assets/theme.js" type="text/javascript" defer></script>
+  
+  <script src="./assets/slick.js" type="text/javascript" defer></script>
+  <script src="./assets/main.js" type="text/javascript" defer></script>
+	
 </head>
 
 <body>
@@ -147,17 +149,17 @@
 					<img src="./assets/main_studiobag_1024x1024@2x.jpg" alt="Load image into Gallery viewer, Studio Bag">
 				</div>
 				<div>
-						<img src="./assets/studio_bag_02_1024x1024@2x.png" alt="Load image into Gallery viewer, Studio Bag">
+						<img data-lazy="./assets/studio_bag_02_1024x1024@2x.png" alt="Load image into Gallery viewer, Studio Bag">
 				</div>
 				<div>
-				<img src="./assets/studio_bag_03_1024x1024@2x.png" alt="Load image into Gallery viewer, Studio Bag">
+				<img data-lazy="./assets/studio_bag_03_1024x1024@2x.png" alt="Load image into Gallery viewer, Studio Bag">
 				</div>
 				<div>
-					<img src="./assets/studio_bag_01_1024x1024@2x.png" alt="Load image into Gallery viewer, Studio Bag">
+					<img data-lazy="./assets/studio_bag_01_1024x1024@2x.png" alt="Load image into Gallery viewer, Studio Bag">
 				</div>
 			</section>
 
-			<script>
+			<!-- <script>
 				$(".center").slick({
 					dots: true,
 					infinite: true,
@@ -165,7 +167,7 @@
 					slidesToShow: 1,
 					adaptiveHeight: true
 				});			
-			</script>
+			</script> -->
 
 		</div>
 
@@ -325,5 +327,6 @@
 
 
   </div>
+  
 </body>
 </html>
